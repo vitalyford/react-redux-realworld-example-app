@@ -55,9 +55,6 @@ const FollowUserButton = props => {
   );
 };
 
-// just in case if we forget and for CTF sake
-// password for XAEA-12 would be made-for-real-cool-names
-
 const mapStateToProps = state => ({
   ...state.articleList,
   currentUser: state.common.currentUser,
