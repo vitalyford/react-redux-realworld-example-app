@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'http://54.173.248.31:5000/api';
+const API_ROOT = 'http://54.205.145.141:5000/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
@@ -15,8 +15,8 @@ const tokenPlugin = req => {
   }
 }
 
-# Again, I don't want to forget my email for XAEA-12
-# which is elon@musk.com
+// Again, I don't want to forget my email for XAEA-12
+// which is elon@musk.com
 
 const requests = {
   del: url =>
